@@ -1,0 +1,97 @@
+<!-- - Create a responsive layout according to the design shown below.
+
+![CSS Grid Assignment I](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/css-grid/assignment-1/card.png)
+
+- Find the medium and small screen design in the assets folder.
+
+- Chose your own images for the assignment.
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Pay attention to the codes, your code quality matters a lot.
+
+- Try to implement the layout as exactly as it has been provided in the design.
+
+- Pay attention to minor things like spacing, alignment, size, etc.
+
+- Use any font-family which suits better for the assignment.
+
+- Once you are done with the assignment connect with the mentor and get the code reviewed. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cec8cacc51.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <header>
+            <h1>Card Layout</h1>
+            <div class="bar">
+                <ul class="flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Refrences</a></li>
+                    <li><a href="#">Contant</a></li>
+                </ul>
+            </div>
+            </header>
+            <main>
+                <section class="grid-box">
+                    <div>
+                        <div class="white padding">
+                            <h2 class="head">The Tittle</h2>
+                            <p class="para">suffered alteration in some form, by injected humour, or randomised words which</p>
+                            <p class="red mt-top">Learn More...</p>
+                        </div>
+                        <div class="white padding">
+                            <h2 class="head">The Tittle</h2>
+                            <p class="para">suffered alteration in some form, by injected humour, or randomised words which</p>
+                            <div class="center">
+                            <img src="./assets/istockphoto-497201017-612x612.jpg" width="100">
+                            </div>
+                            <p class="red mt-top">Learn More...</p>
+                        </div>
+                    </div>
+                    <div class="white padding"><h2 class="head">The Tittle</h2>
+                    <div class="center">
+                        <img class="cat" src="./assets/istockphoto-1311993425-612x612.jpg" width="120">
+                    </div>
+                    <div class="margin">
+                    <p class="para">suffered alteration in some form, by injected humour, or randomised words which</p>
+                    <p class="red mt-top">Learn More...</p>
+                    </div>
+                    </div>
+                    <div >
+                        <div class="white padding"> 
+                            <h2 class="head">The Tittle</h2>
+                            <p class="para">suffered alteration in some form, by injected humour, or randomised words which</p>
+                            <p class="more">Learn More...</p>
+                        </div>
+                        <div class="white padding">
+                            <h2 class="title">The Tittle</h2>
+                            <p class="para">suffered alteration in some form, by injected humour, or randomised words which</p>
+                            <p class="red mt-top">Learn More...</p>
+                        </div>
+                        <div class="white padding">
+                            <h2 class="head">The Tittle</h2>
+                            <p class="para">suffered alteration in some form, by injected humour, or randomised words which</p>
+                            <p class="red mt-top">Learn More...</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
