@@ -1,0 +1,195 @@
+<!-- - Create a responsive layout according to the design shown below.
+
+#### Large Screen view(Above 768px)
+
+![CSS Grid Assignment II](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/css-grid/assignment-2/stimulus.png)
+
+#### Small Screen view(Below 768px)
+
+Find the small screen design in the assets folder.
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Pay attention to the codes, your code quality matters a lot.
+
+- Try to implement the layout as exactly as it has been provided in the design.
+
+- Pay attention to minor things like spacing, alignment, size, etc.
+
+- Use any font-family that suits better for the layout.
+
+- Once you are done with the assignment connect with the mentor and get the code reviewed. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/cec8cacc51.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;800&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="back-image">
+            <h1>Stimulous</h1>
+        </div>
+        <div class="side-bar">
+            <div class="nav">
+                <nav>
+                    <ul class="flex">
+                       <li> <a class="home-font"href="#">HOME</a></li>
+                       <li> <a href="#">ABOUT ME</a></li>
+                       <li> <a href="#">EXPRENCES</a></li>
+                       <li> <a href="#">TESTIMONIAL</a></li>
+                       <li> <a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <p>WELCOME TO MY WEBSITE</p>
+                <h2>Hello, I am <span>Stimulous</span> currently based in New Tork, City </h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in VirginiaContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in VirginiaContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="donec-sec">
+            <div class="donec-box">
+                <h3>Donec Auctor</h3>
+                <p class="line">There are many variations of passages</p>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+            </div>
+            <div class="two-box">
+                <div>
+                    <img src="./assets/media/about-img.jpg">
+                </div>
+                <div class="skills">
+                    <h2>MY SKILLS</h2>
+                    <p>Photoshop, HTML CSS JS Web Design</p>
+                    <div>
+                        <div class="flex mt">
+                            <p class="percent">Frontened Design</p>
+                            <p class="percent">90%</p>
+                        </div>
+                        <hr>
+                        <div class="flex mt">
+                            <p class="percent">Backened Processing</p>
+                            <p class="percent">70%</p>
+                        </div>
+                        <hr>
+                        <div class="flex mt">
+                            <p class="percent">HTML & CSS</p>
+                            <p class="percent">80%</p>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="four-col">
+            <div class="design-box">
+                <i class="fa-solid fa-desktop"></i>
+                <h3>Interface Design</h3>
+                <p>Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p>
+            </div>
+            <div class="media">
+                <i class="fa-solid fa-plane"></i>
+                <h3>Media Strategy</h3>
+                <p>Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p>
+            </div>
+            <div class="mobile">
+                <i class="fa-solid fa-mobile-retro"></i>
+                <h3>Mobile App</h3>
+                <p>Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p>
+            </div>
+            <div class="coding"> 
+                <i class="fa-solid fa-mobile-retro"></i>
+                <h3>Interface Design</h3>
+                <p>Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p></div>
+        </section>
+        <section class="experience">
+            <div>
+                <img src="./assets/media/experience-img.jpg">
+            </div>
+            <div class="experience-box">
+                <h2>My Expereinces</h2>
+                <p>The Extremes of Good and Evil) by Cicero</p>
+                <div class="top inline">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h3>Graphic Design <span>2014 JUl-2015 SEP</span></h3>
+                </div>
+                <p class="one">Lorem Ipsum is not simply random text</p>
+                <div class="top inline">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h3>Web Design <span>2014 OCT-2015 JAN</span></h3>
+                </div>
+                <p class="one">Lorem Ipsum is not simply random text</p>
+            </div>
+        </section>
+        <section class="education">
+            <div class="education-box">
+                <h2>My Education</h2>
+                <p>The Extremes of Good and Evil) by Cicero</p>
+                <div class="top inline">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h3>Master in Design <span>2014 JUl-2015 SEP</span></h3>
+                </div>
+                <p class="one">Lorem Ipsum is not simply random text</p>
+                <div class="top inline">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h3>Bachelor of Arts <span>2014 OCT-2015 JAN</span></h3>
+                </div>
+                <p class="one">Lorem Ipsum is not simply random text</p>
+            </div>
+            <div>
+                <img src="./assets/media/education-img.jpg">
+            </div>
+        </section>
+        <section class="input">
+            <div class="input-box">
+                <h2>Say Hello</h2>
+                <p>Lorem Ipsum is not simply random text</p>
+                <h3>Your Name</h3>
+                <hr>
+                <h3>Your Email</h3>
+                <hr>
+                <h3>Write Your message</h3>
+                <hr class="down">
+            </div>
+            <div class="part">
+                <div>
+                    <img src="./assets/media/contact-img.jpg">
+                </div>
+                <div class="office">
+                    <h4>Visit my office</h4>
+                    <p>456 New Street road 220000, New York city USA</p>
+                    <h5>Contact</h5>
+                    <div class="inline">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>0125 000 25</p>
+                    </div>
+                    <div class="inline">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>help@company.co</p>
+                        </div>
+                        <div class="inline">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <p>Comany.co</p>
+                            </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="m-auto">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.200715622117!2d76.3673676!3d32.1988218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b5227f9717a19%3A0x37f88fa4bf7bd42e!2z4KSw4KSV4KSV4KSwIOCkruCkvuCksOCljeCklywg4KS54KS_4KSu4KS-4KSa4KSyIOCkquCljeCksOCkpuClh-Cktg!5e0!3m2!1shi!2sin!4v1653061086439!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
